@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "63452d24-e1ae-42b8-8bff-fc6d01228a5e",
+		"name": "API_tarea",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24911508"
+	},
+	"item": [
+		{
+			"name": "Crear",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Comprar leche\",\r\n  \"description\": \"Ir al supermercado y comprar leche\",\r\n  \"completed\": false\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Api/tarea",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Api",
+						"tarea"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ENLISTAR",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
