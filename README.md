@@ -22,3 +22,11 @@ Primero, clona el repositorio en tu máquina local.
 ```bash
 git clone https://github.com/tu-usuario/tarea-api.git
 cd tarea-api
+
+## Ejecución de pruebas en Postman
+
+1. Abre Postman y haz clic en **Import**.
+2. Selecciona el archivo **postman-collection.json** que exportaste desde el proyecto.
+3. Ejecuta las pruebas de la colección.
+4. Verifica que todas las pruebas pasen correctamente.
+
