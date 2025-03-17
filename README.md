@@ -20,7 +20,7 @@ Antes de ejecutar la aplicación, asegúrate de tener los siguientes requisitos 
 Primero, clona el repositorio en tu máquina local.
 
 ```bash
-git clone https://github.com/tu-usuario/tarea-api.git
+git clone https://github.com/JoshuaPereyra/Tarea-api
 cd tarea-api
 
 ## Ejecución de pruebas en Postman
